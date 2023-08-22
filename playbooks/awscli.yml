@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
   vars_files:
-    - playbooks/vars/main.yml
+    - /vars/main.yml
   roles:
     - awscli
