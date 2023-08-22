@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  roles:
+    - node
+  vars_prompt:
+    name: node_version
+    prompt: 'Choose your Node version'
+    default: '16.15.0'
+    private: no
